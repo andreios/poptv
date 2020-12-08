@@ -42,7 +42,7 @@ export default {
       )
       .then((result) => {
         this.baseURL = result.data.images.base_url;
-        this.baseURL += result.data.images.poster_sizes[2];
+        this.baseURL += result.data.images.poster_sizes[4];
       });
 
     //second call retrieves list of shows
